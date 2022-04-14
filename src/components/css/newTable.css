@@ -1,0 +1,170 @@
+.table {
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.table-header {
+    display: grid;
+    text-align: right;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: white;
+    align-items: center;
+    background-image: linear-gradient(to right, #7a55b5, #9b80c8,#7a55b5, #9b80c8);
+    color: white;
+    height: 40px;
+}
+
+
+.table-row {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: white;
+    align-items: center;
+    border-top : 1px solid #7A55B5;
+    border-bottom : 1px solid #7A55B5;
+}
+
+.header-cell {
+    text-align: right;
+    padding: 0 30px;
+}
+.table-cell {
+    display: flex;
+    justify-content: center;
+}
+
+.table-cell-lessons {
+    display: flex;
+    flex-direction: row;
+}
+
+#search-wrapper {
+    width: 80%;
+    display: flex;
+    margin-top: 40px;
+    margin: 30px auto;
+    position: relative;
+  }
+
+  .participating-classes-table-header {
+      position: absolute;
+      right: 0;
+  }
+
+  #search-input {
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0 0 8px #ded5ed;
+    width: 40%;
+    text-align: center;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  #search-input::placeholder {
+    text-align: right;
+    padding: 20px;
+  
+  }
+
+  .search-button {
+    background-image: linear-gradient(to right, #7a55b5, #9b80c8);
+    border: 1px solid #ded5ed;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 0 20px;
+    width: 15%;
+    cursor: pointer;
+  }
+
+
+
+
+@media only screen and (max-width: 1125px) {
+
+  .search-button {
+    background-image: linear-gradient(to right, #7a55b5, #9b80c8);
+    border: 1px solid #ded5ed;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+
+
+    #search-input {
+        border-radius: 35px;
+        border: none;
+        box-shadow: 0 0 8px #ded5ed;
+        width: 80%;
+        text-align: right;
+        margin: auto;
+        height: 40px;
+      }
+    
+      #search-input::placeholder {
+        text-align: right;
+        padding: 20px;
+        font-size: 35px;
+      }
+
+
+    .participating-classes-table-header {
+        text-align: center;
+      }
+
+      .mobile-place {
+          position: absolute;
+          right: 0px;
+          background: #7a55b5;
+          width: 9%;
+          height: 56%;
+          border-radius: 50px 0 0 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+      }
+
+    .table-row {
+        margin: 10px 0;
+        border: none;
+        height: 100px;
+        padding: 0 50px;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .table-row > div {
+      font-size: 30px;
+    }
+
+    #search-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+      }
+
+.table-header {
+  font-size: 30px;
+  grid-template-columns: auto auto auto auto;
+    margin : -10px 0;
+    height: 80px;
+    align-items: end;
+}
+
+.table-header > div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+    width: 100%;
+}
+
+}

@@ -1,0 +1,13 @@
+#logo {
+  text-align: center;
+  margin: 0 50px;
+  font-size: 60px;
+  color: #7a55b5;
+  text-shadow: 0 0 8px #9b80c8;
+  font-family: "Pacifico", cursive;
+}
+
+.App {
+  background-color: #f0f0f0;
+  font-family: "Fredoka", sans-serif;
+}

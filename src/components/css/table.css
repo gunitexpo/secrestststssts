@@ -1,0 +1,115 @@
+#table-head {
+    background:#9B80C8;
+}
+
+#table {
+    width : 100%;
+    margin: 50px auto;
+    border-radius:10px;
+    box-shadow: 0 0 8px #DED5ED;
+    border-style:hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.participating-classes-table-header {
+   position:absolute;
+   right:0;
+}
+
+#search-input {
+    border-radius:35px;
+    border: none;
+    box-shadow:0 0 8px #DED5ED;
+    width:40%;
+    text-align: center;
+}
+
+#search-input::placeholder {
+    text-align: center;
+
+}
+
+.table-component-wrraper {
+    width: 80%; 
+    margin: auto; 
+    position: relative;
+}
+
+#search-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.search-button {
+    background-image: linear-gradient(to right,#7A55B5,#9B80C8);
+    border : 1px solid #DED5ED;
+    border-radius: 10px;
+    padding:10px;
+    color: white;
+    margin : 0 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#table-head > tr > td {
+    color: white;
+    border-left: white;
+    text-align: center;
+    border-right: white;
+}
+
+.all-schools-header {
+    text-align:right;
+    position: absolute;
+    right: 0px;
+}
+@media only screen and (max-width: 900px) {
+
+    .participating-classes-table-header {
+        text-align: center;
+    }
+    
+    .table-component-wrraper {
+        min-width: 100%; 
+        max-width: 100%; 
+        position: relative;
+    }
+
+    #search-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .search-button {
+        background-image: linear-gradient(to right,#7A55B5,#9B80C8);
+        border : 1px solid #DED5ED;
+        border-radius: 10px;
+        padding:10px;
+        color: white;
+        margin :20px auto;
+        cursor: pointer;
+    }
+
+    #search-input {
+        border-radius:35px;
+        border: none;
+        box-shadow:0 0 8px #DED5ED;
+        width:80%;
+        text-align: center;
+        margin: auto;
+        line-height: 3rem;
+    }
+    
+    #search-input::placeholder {
+        text-align: center;
+    
+    }
+  
+  }

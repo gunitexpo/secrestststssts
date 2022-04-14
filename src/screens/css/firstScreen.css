@@ -1,0 +1,23 @@
+
+
+  .all-schools-list-button {
+    background-image: linear-gradient(to right,#7A55B5,#9B80C8);
+    border : 1px solid #DED5ED;
+    border-radius: 10px;
+    padding:10px;
+    color: white;
+    margin :20px auto;
+    cursor: pointer;
+    display:none;
+    width: 70%;
+    height: 60px;
+    font-size: 35px;
+    
+  }
+
+
+  @media only screen and (max-width:1125px) {
+    .all-schools-list-button {
+      display:block;
+    }
+  }
